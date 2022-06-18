@@ -20,6 +20,8 @@ function isPalindrome(word) {
 
 /*
   Add written explanation of your solution here
+  The function iterates over the string and compares half of it to the other remainng half in corresponding positions. Once the function figures out that the letters are not equal, it would return a false. 
+  On the other hand, if the letters are equal, it would return a true value
 */
 
 // You can run `node index.js` to view these console logs
