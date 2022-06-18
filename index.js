@@ -1,9 +1,21 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  for(startIndex=0;startIndex<word.length/2;startIndex++){
+  const endIndex=word.length-1-startIndex;
+    if (word[startIndex]!==word[endIndex]){
+      return false
+    } else{
+      return true
+    }
+  }
 }
 
 /* 
   Add your pseudocode here
+  iterate over the string from the begginning to the middle
+  compare letters at the begginning and letters at the end of string
+   if letters fail to match, return false
+  if middle is raeched and all the letters at begginning and end match, return true 
 */
 
 /*
